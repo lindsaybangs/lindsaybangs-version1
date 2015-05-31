@@ -1,0 +1,164 @@
+/* Colours:
+ * Blue: #75baad
+ * Green: #c2c55a
+ * Beige: #e0d894
+ * Brown: #4c4128 
+ * Off-white: #fffceb
+ * Orange: #d7784d
+ */
+
+/* Body - background, paragraph, etc. */
+body {
+  padding-left: 15em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #fffceb }
+
+/* Headings */
+h1 {
+  padding-left: 10 px;
+  text-align: center;
+  color: #4c4128; 
+}
+h2 {
+  padding-left: 10 px;
+  color: #75baad;
+}
+
+h2.resume {
+  padding-left: 10 px;
+  color: #75baad;
+  border-bottom: thin dotted #75baad;
+  width: 95%;
+}
+
+h3 {
+  padding-left: 10 px;
+  color: #d7784d;
+}
+
+h3.home-page {
+  text-align: center;
+
+  font-family: 'indie flower', cursive;
+  color:  #d7784d;
+}
+
+h4 {
+  padding-left: 10 px;
+}
+
+h5 {
+  padding-left: 10 px;
+}
+
+/* Body paragraphs */
+p {
+  padding-left: 2 em;
+  width: 90%
+
+  color: #000000;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Lists */
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px
+}
+
+ul li {
+  background-image: url(images/bullet.gif);
+  background-repeat: no-repeat;
+  background-position: 0px center;
+  padding-left: 15px;
+
+  color: #000000 
+  }
+
+/* The top of the document */
+div.head {
+  margin: 1em;
+  border: 0.3em dotted #4c4128;
+  background-color: #75baad;
+}
+
+div.head h1 {
+  padding-left: 0px;
+  font-family: 'indie flower', cursive;
+  color:  #4c4128; 
+}
+
+/* Navigation Bar - vertical */
+pre {
+  font: bold;
+  color: #75baad;
+  background-color: #fffceb;
+  border: none;
+  padding: 1px;
+}
+
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em; 
+}
+
+ul.navbar li {
+  background: #fffceb;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-left: 1em solid #d7784d;
+}
+
+ul.navbar a {
+  text-decoration: none 
+}
+a:link {
+  color: #75baad; 
+}
+a:visited {
+  color: #c2c55a; 
+}
+
+/* Table */
+table {
+  width: 90%; 
+  margin-left: 3em;
+}
+
+th {
+  padding: 10px;
+  font-size: 1.2em;
+  text-align: left;
+
+  background-color: #e0d894;
+  color: #4c4128; 
+
+  border-top: thin solid #4c4128;
+  border-bottom: thin solid #4c4128;
+}
+
+td {
+  color: #000000;
+  border-bottom: thin dotted #4c4128;
+}
+
+/* Address information - bottom */
+address {
+  width: 95%;
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted; 
+
+  text-align: center}
